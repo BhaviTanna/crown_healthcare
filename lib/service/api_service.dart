@@ -33,7 +33,7 @@ Future<void> loginCheck(BuildContext context,
             return AlertDialog(
               title: const Text('Correct Credentials!'),
               content: const Text('Login Successfully'),
-              actions: [
+              actions: <Widget>[
                 TextButton(
                   child: const Text('OK'),
                   onPressed: () {
